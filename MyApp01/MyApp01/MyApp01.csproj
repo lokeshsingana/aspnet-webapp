@@ -199,6 +199,7 @@
           <DevelopmentServerPort>51689</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost:44338/</IISUrl>
+           <IISUrl>https://20.197.60.94</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
