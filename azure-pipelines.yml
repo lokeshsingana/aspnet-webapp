@@ -33,8 +33,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
--.task: PublishBuildArtifacts@1
-..displayName: 'publish Website Artifact'
-..inputs:
-....ArtifactName: sample-site
-....PathtoPublish: $(build.artifactstagingdirectory)
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Website Artifact'
+  inputs:
+    ArtifactName: sample site
+    PathtoPublish: $(build.artifactStagingDirectory)
